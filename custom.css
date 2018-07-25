@@ -1,26 +1,52 @@
+
+@media only screen and (max-width: 768px) {
+   
+    .exl-pricing-col{
+    padding:unset;
+    max-width:500px;
+    min-width:250px;
+    margin:auto;
+    }
+    .exl-pricing-col.col-md-4{
+        padding-top:30px;
+        padding-bottom:30px;
+    }
+    
+
+}
+.pricing-row{
+    margin-left:2.5em;
+    margin-right:2.5em;
+}
 .exl-pricing-col-inner {
     width: 100%;
-    margin: 0px 10px;
-    padding: 0px 20px 40px;
+    padding: 0 1.5625em 0.625em;
+    margin:0px, 2em;
     background-color:#f2f2f2;
 }
-
+.exl-pricing-col{
+    position: relative;
+    min-height: 1px;
+}
 .exl-pricing-header-gradient {
-    margin: 0px 10px;
     width: 100%;
-    height:23px;
+    height:1.25em;
 }
 
-.fa-ul {
-    line-height:250%;
+.pricing-col-li {
+    line-height:200%;
     margin-left:0.1em;
 }
-.fa.fa-times.fa-fw,
-.fa.fa-check.fa-fw{
-    margin-right:10px;
+.pricing-col-li>li {
+    position: relative;
+    font-size: 0.9em;
+}
+.exl-fa{
+    margin-right:0.625em;
 }
 .col-heading-color{
     color:#1464dc;
+    line-height:120%;
 }
 .check-color{
     color:#1ec878;
@@ -33,4 +59,152 @@
 }
 #gradient-right{
     background: linear-gradient(90deg, rgba(152,44,158,1) 0%, rgba(230,15,120,1) 50%);
+}
+
+.exlskills-lead{
+    font-size:125%;
+    font-weight: 300;
+    color: #333333;
+}
+
+.exl-list-icon {
+    height: 100%;
+    width: 50px;
+}
+.parent{
+      display: flex;
+      height: 100%;
+}
+.child{
+      display:flex;
+      flex-direction:column;
+      padding: 5px;
+      margin-top: 10px;
+}
+
+.grandchild{
+     margin-left: 5px;
+}
+.tm-box-icon .tm-svg *{
+    stroke: #9ab6df
+}
+#gradient-row{
+    background: linear-gradient(45deg, rgba(230,231,241,1) 0%, rgba(242,230,242,1) 50%, rgba(253,229,242,1) 100%);
+}
+svg{
+    width: 130%;
+    height: 130%;
+}
+.payment-button {
+    width:100%;
+    padding: 0 26px;
+    height: 55px;
+    border-width: 1px;
+    border-radius: 3px;
+    background-color:#1464dc;
+    color:#ffffff;
+    border-color:#1464dc;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 53px;
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    white-space: nowrap;
+    border-style: solid;
+    cursor: pointer;
+    transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
+}
+.payment-button:hover {
+    background-color: #fff; 
+    color: #1464dc;
+    border-color:#1464dc !important;
+}
+.small-text{
+    font-size:0.6em;
+    text-color:#444444;
+}
+.exl-sub-term-fieldset {
+    border: none;
+    padding: unset;
+}
+.payment-option-text{
+    padding-top:1.2em;
+    font-size:0.8em;
+    padding-left:1.2em;
+}
+.pricing-text-below-button{
+    text-align:center;
+    font-size:0.8em;
+}
+.exl-pricing-p{
+    margin-bottom:1em;
+}
+.faq-question{
+    color:#111111;
+    font-size:1.2em;
+    line-height:1.375em;
+}
+.faq-answer{
+    font-size:0.975em;
+    line-height:1.375em;
+}
+.exl-radio-button{
+    position:relative;
+    /*padding-top: 21px;
+    padding-bottom: 20px;
+    padding-left: 40px;
+    padding-right: 40px;*/
+    padding-top:15px;
+    background-color:#f2f2f2;
+    border-color:#f2f2f2;
+    border-style:solid;
+    border-width:1px;
+    font-weight:400;
+}
+.exl-radio-button:hover
+{   background-color: #eff3f8 !important;
+    border-color: none;
+    border-style: solid;
+    border-width: 1px;
+    transition: all 0.2s cubic-bezier(0.645, 0.045, 0.355, 1);
+}
+
+.exl-radio input + label { 
+    background: #f2f2f2 !important;
+    border-style:solid;
+    border-width:1px;
+    border-color:#f2f2f2;
+    color:#111111;
+    font-size:16px;
+}
+.exl-radio input:checked + label { 
+    background: #eff3f9 !important;
+    border-style:solid;
+    border-width:1px;
+    border-color:#1464dc;
+    color:#111111;
+    font-size:16px;
+}
+.exl-radio input{
+    margin-left:3px;
+    width: 15px;
+    height: 15px;
+    border-radius: 15px;
+    background-color:#fff;
+}
+.exl-radio input:after{
+    width: 15px;
+    height: 15px;
+    border-radius: 15px;
+    background-color:#1464dc;
+    border: 2px solid #f2f2f2;
+    
+}
+.exl-radio label{
+    display:inline-block;
+    width:35%;
+    height:55px;
+    text-align:left;
+    font-size: 20px;
 }
