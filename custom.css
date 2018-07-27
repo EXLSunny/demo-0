@@ -11,12 +11,14 @@
         padding-top:30px;
         padding-bottom:30px;
     }
-    
+   /* .exl-radio{
+        width:100%;
+    } remember to add !important if put it in use*/ 
 
 }
 .pricing-row{
-    margin-left:2.5em;
-    margin-right:2.5em;
+    margin-left:4em;
+    margin-right:4em;
 }
 .exl-pricing-col-inner {
     width: 100%;
@@ -127,15 +129,20 @@ svg{
 .exl-sub-term-fieldset {
     border: none;
     padding: unset;
+    display: inline-block;
+    width: 97%;
 }
 .payment-option-text{
-    padding-top:1.2em;
-    font-size:0.8em;
-    padding-left:1.2em;
+    padding-top:0.8em;
+    padding-bottom:0.2em;
+    font-size:12px;
+    padding-left:13px;
+    color: #B3B6B7;
 }
 .pricing-text-below-button{
     text-align:center;
     font-size:0.8em;
+    color:#273746;
 }
 .exl-pricing-p{
     margin-bottom:1em;
@@ -151,38 +158,34 @@ svg{
 }
 .exl-radio-button{
     position:relative;
-    /*padding-top: 21px;
-    padding-bottom: 20px;
-    padding-left: 40px;
-    padding-right: 40px;*/
-    padding-top:15px;
+    padding-top:14px;
     background-color:#f2f2f2;
     border-color:#f2f2f2;
     border-style:solid;
     border-width:1px;
     font-weight:400;
 }
-.exl-radio-button:hover
+/*.exl-radio-button:hover
 {   background-color: #eff3f8 !important;
     border-color: none;
     border-style: solid;
     border-width: 1px;
     transition: all 0.2s cubic-bezier(0.645, 0.045, 0.355, 1);
-}
+}*/
 
 .exl-radio input + label { 
-    background: #f2f2f2 !important;
+    /*background: #f2f2f2 !important;*/
     border-style:solid;
     border-width:1px;
-    border-color:#f2f2f2;
+    /*border-color:#f2f2f2;*/
     color:#111111;
     font-size:16px;
 }
 .exl-radio input:checked + label { 
-    background: #eff3f9 !important;
+    /*background: #eff3f9 !important;*/
     border-style:solid;
     border-width:1px;
-    border-color:#1464dc;
+    /*border-color:#1464dc;*/
     color:#111111;
     font-size:16px;
 }
@@ -199,12 +202,31 @@ svg{
     border-radius: 15px;
     background-color:#1464dc;
     border: 2px solid #f2f2f2;
-    
+    visibility: hidden;
 }
 .exl-radio label{
     display:inline-block;
-    width:35%;
+    width:100%;
     height:55px;
-    text-align:left;
-    font-size: 20px;
+    text-align:center;
+    font-size: 16px;
+    color:#222222;
+    
+}
+.exl-radio{
+    background-color:#f2f2f2;
+    display: inline-table;
+    width:49.3%;
+}
+/*.tm-box-icon .tm-svg *{
+    margin-left:120px
+}*/
+.page-content{
+    padding-bottom:0px;
+}
+input[type='radio']{
+    position:initial;
+}
+input[type='radio']:before{
+    visibility: hidden;
 }
