@@ -1,0 +1,48 @@
+
+.top-bg-img{
+    /* The image used */
+    background-image: url("https://exlskills.com/wp-content/uploads/2017/12/slider-startup-02-slide-01-bg.jpg");
+
+    /* Full height */
+    height: 100%;
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/* .home-top-row{
+  position:absolute;
+  left:0px;
+  top:0px;
+} */
+.home-top-row{
+  padding:6em 1em 6em 6em;
+}
+.home-top-text-inner-col{
+  padding-right:1.5em;
+}
+.home-top-title{
+  color: #007ACE;
+  font-size:38px;
+  line-height:45px;
+  font-weight:300;
+  padding: 4em 0 0.5em 0;
+}
+.home-top-p{
+  padding: 1em 0;
+}
+.header_gradient{
+  background: -webkit-linear-gradient(left, rgb(230, 15, 120), rgb(221, 32, 231));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  }
+ .exl-home-top-right-img{
+   padding:0;
+  }
+ .text-below-top-button{
+   display:block;
+   width:10em;
+   text-align:center;
+ }
+  
